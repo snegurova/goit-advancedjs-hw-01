@@ -30,6 +30,7 @@ const onSubmit = (event) => {
     error.innerHTML = 'Fill please all fields';
     return;
   }
+  
   console.log(formData);
   localStorage.removeItem(localStorageKey);
   form.reset();
